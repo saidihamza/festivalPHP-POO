@@ -1,0 +1,73 @@
+main {
+  display: flex;
+  background: url("../images/festival-musique.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+h1 {
+  color: rgba(255, 217, 0, 0.774);
+  font-size: 37px;
+  text-align: center;
+ padding: 10% 0;
+}
+h2 {
+  color: rgba(255, 217, 0, 0.774);
+  font-size: 25px;
+  text-align: center;
+padding-top: 2%;
+
+}
+
+.left {
+  background: url("../images/179126176_1217803855305274_4645365236393295091_n.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 100vh;
+  margin-left: 10%;
+}
+
+.sec_right {
+  background-color: black;
+  width: 40%;
+  height: 100vh;
+
+
+}
+
+.sec_right div {
+  margin: 5%;
+}
+
+.sec_right input,
+select {
+  padding: 2% 30%;
+  border-radius: 10px
+}
+
+::placeholder,
+option,
+select {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+button {
+  background: linear-gradient(135deg, #753370 0%, #298096 100%);
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width: 100%;
+  letter-spacing: .11rem;
+  outline: none;
+}
